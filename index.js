@@ -1,4 +1,4 @@
-export function disAction(model) {
+function disAction(model) {
   let actions = {
     [model.name]: (state, { payload }) => ({ ...state, ...payload })
   };
@@ -6,3 +6,5 @@ export function disAction(model) {
     return Object.keys(actions).indexOf(action.type) > -1 ? actions[action.type](state, action) : state;
   };
 }
+
+module.exports = disAction;
