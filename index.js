@@ -3,7 +3,7 @@ function disAction(model) {
     [model.name]: (state, { payload }) => ({ ...state, ...payload })
   };
   return (state = model.state, action) => {
-    return Object.keys(actions).indexOf(action.type) > -1 ? actions[action.type](state, action) : state;
+    return Object.keys(actions).includes(action.type) ? actions[action.type](state, action) : state;
   };
 }
 

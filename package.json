@@ -1,6 +1,6 @@
 {
   "name": "redux-ey",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "`npm install redux-ey --save`",
   "main": "lib/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/baishiup/redux-ey#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-array-includes": "^2.0.3",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-3": "^6.24.1",
