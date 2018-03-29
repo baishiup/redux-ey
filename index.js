@@ -7,4 +7,4 @@ function disAction(model) {
   };
 }
 
-module.exports = disAction;
+export default disAction;
