@@ -1,6 +1,6 @@
 {
   "name": "redux-ey",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "`npm install redux-ey --save`",
   "main": "lib/index.js",
   "scripts": {

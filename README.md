@@ -3,7 +3,7 @@
 ```js
 // store/test.model.js
 export default {
-  name: 'test',
+  namespace: 'test',
   state: {
     a: 1,
     b: 2
